@@ -1,3 +1,8 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    
+}
+
 html {
 
 }
@@ -22,5 +27,16 @@ body {
     align-items: center;
     justify-content: center;
     top: 200px;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 1em;
+}
+
+.input-sq {
+    padding: 2em;
+    margin: 1em;
 }
 
