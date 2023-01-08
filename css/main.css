@@ -177,11 +177,37 @@ body {
 .input-sq {
     width: 101px;
     background-color: white;
-    box-shadow: 0px 5px 1px hsl(28, 16%, 85%);
+    box-shadow: 0px 5px 1px hsl(28, 16%, 65%);
     font-size: 32px;
     color: hsl(221, 14%, 31%)
 }
 
+.calc-def {
+    height: 58px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.reset-rec {
+    width: 231px;
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0px 5px 1px hsl(224, 28%, 35%);
+    font-size: 20px;
+    margin: 0;
+    color: white;
+    grid-column: 1/3;
+}
+
+.result-rec {
+    width: 231px;
+    background: hsl(6, 63%, 50%);
+    box-shadow: 0px 5px 1px hsl(6, 70%, 34%);
+    font-size: 20px;
+    color: white;
+    grid-column: 3/5;
+}
 
 
 
