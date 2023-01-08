@@ -20,23 +20,32 @@
     <h1>calc</h1>
     <div class="theme-toggle-container">
       <div class="theme-toggle-text-container">
-        <p>1</p>
-        <p>2</p>
-        <p>3</p>
+        <p class="theme-toggle-text">1</p>
+        <p class="theme-toggle-text">2</p>
+        <p class="theme-toggle-text">3</p>
+      </div>
+      <div class="theme-toggle-body">
+        <div class="theme-toggle-path">
+          <div class="theme-toggle theme-1"></div>
+        </div>
       </div>
     </div>
-    <div class="theme-toggle-path"></div>
+    <div class="theme-text-container">
+      <p class="theme">Theme</p>
+    </div>
   </section>
 
   <section class="calc-display">
-    <input class="screen" aria-label="Screen" type="text" name="" id="">
+    <input class="screen" aria-label="Screen" type="text" value="">
+    <div class="screen-guard"></div>
   </section>
 
   <div class="calculator-body">
-      <button class="number input-sq">7</button>
-      <button class="number input-sq">8</button>
-      <button class="number input-sq">9</button>
-      <button class="del-sq">DEL</button>
+    <div class="calc-btn-container">
+      <button class="calc-def input-sq">7</button>
+      <button class="calc-def input-sq">8</button>
+      <button class="calc-def input-sq">9</button>
+      <button class="calc-def input-sq">DEL</button>
       <button class="number input-sq">4</button>
       <button class="number input-sq">5</button>
       <button class="number input-sq">6</button>
@@ -51,9 +60,8 @@
       <button class="input-sq">x</button>
       <button class="reset-rec">RESET</button>
       <button class="result-rec">=</button>
+    </div>
   </div>
 </main>
-
-
 </body>
 </html>

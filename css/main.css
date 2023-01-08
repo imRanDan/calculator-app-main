@@ -3,13 +3,15 @@
     font-family: 'League Spartan', sans-serif;
 }
 
-html {
-
-}
-
-
 body {
-    background-color:hsl(222, 26%, 31%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color:hsl(222, 26%, 31%);
 }
 
 .attribution {
@@ -21,6 +23,164 @@ body {
     color: hsl(228, 45%, 44%); 
 }
 
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 706px;
+    max-width: 541px;
+    min-width: 326px;
+    min-height: 608px;
+    background-color:hsl(222, 26%, 31%);
+}
+
+.calc-hero-banner {
+    width: 100%;
+    height: max-content;
+}
+
+.calc-hero-banner h1 {
+    float: left;
+    color: white;
+    font-size: 32px;
+    text-transform: lowercase;
+    margin: 0;
+}
+
+.theme-toggle-container {
+    width: 70px;
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.theme-toggle-text-container {
+    width: 85%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme-toggle-text {
+    color: white;
+    font-size: 11px;
+    margin: 0;
+}
+
+.theme-toggle-body {
+    width: 100%;
+    height: 28px;
+    border-radius: 23px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theme-toggle-path {
+    width: 85%;
+    height: 19px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.theme-toggle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    transition: all 100ms
+        ease-in;
+}
+
+.theme-text-container {
+    width: max-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+    float: right;
+}
+
+.theme {
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+}
+/* End of Calc Hero Banner */
+
+/* Calc Display */
+
+.calc-display {
+    width: 100%;
+    height: 126px;
+    background-color:hsl(224, 36%, 15%);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.screen {
+    max-width: 491px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    text-align: right;
+    text-transform: uppercase;
+    color: white;
+}
+
+.screen-guard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: transparent;
+}
+
+.calculator-body {
+    width: 100%;
+    height: 476px;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-btn-container {
+    width: 491px;
+    height: 415px;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(4, 101px);
+    grid-template-rows: auto;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.input-sq {
+    width: 101px;
+    background-color: white;
+    box-shadow: 0px 5px 1px hsl(28, 16%, 85%);
+    font-size: 32px;
+    color: hsl(221, 14%, 31%)
+}
 
 
 
