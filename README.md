@@ -3,7 +3,6 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -18,15 +17,6 @@
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- See the size of the elements adjust based on their device's screen size
-- Perform mathmatical operations like addition, subtraction, multiplication, and division
-- Adjust the color theme based on their preference
-- **Bonus**: Have their initial theme preference checked using `prefers-color-scheme` and have any additional changes saved in the browser
-
 ### Screenshot
 
 ![](./images/calculator.app-screenshot.png)
@@ -35,6 +25,10 @@ Users should be able to:
 
 - Solution URL: [https://github.com/imRanDan/calculator-app-main](https://github.com/imRanDan/calculator-app-main)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+### My process
+I built the layout first and customized the colours to ones I wanted to use. I used grid for the buttons to 
+put them in order. 
 
 ### Built with
 
@@ -56,15 +50,13 @@ I would have liked to add media queries to this.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Statements & Switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) - This helped me figure out how to use case and switch with the basic algorithmic function in the calcualator. 
+- [Calculator JS Tutorial](https://www.youtube.com/watch?v=j59qQ7YWLxw&t=509s) - This is an amazing tutorial video that helped me figure out some of the functionalities for the calculator to work and display some of the numbers correctly.
 
 ## Author
 
 - Website - [Danyal Imran](https://danyalimran.com/)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@TheRanDan](https://twitter.com/TheRanDan)
 
 
 ## Acknowledgments
