@@ -11,16 +11,7 @@ body {
     height: 100vh;
     padding: 0;
     margin: 0;
-    background-color:hsl(222, 26%, 31%);
-}
-
-.attribution {
-    font-size: 11px; 
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%); 
+    background-color:hsl(254, 27%, 31%);
 }
 
 .calculator-container {
@@ -33,7 +24,7 @@ body {
     max-width: 541px;
     min-width: 326px;
     min-height: 608px;
-    background-color:hsl(222, 26%, 31%);
+    background-color:hsl(254, 27%, 31%);
 }
 
 .calc-hero-banner {
@@ -42,82 +33,13 @@ body {
 }
 
 .calc-hero-banner h1 {
-    float: left;
+    text-align: center;
     color: white;
     font-size: 32px;
     text-transform: lowercase;
     margin: 0;
 }
 
-.theme-toggle-container {
-    width: 70px;
-    height: 38px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    float: right;
-}
-
-.theme-toggle-text-container {
-    width: 85%;
-    height: max-content;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.theme-toggle-text {
-    color: white;
-    font-size: 11px;
-    margin: 0;
-}
-
-.theme-toggle-body {
-    width: 100%;
-    height: 28px;
-    border-radius: 23px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.theme-toggle-path {
-    width: 85%;
-    height: 19px;
-    background-color: transparent;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.theme-toggle {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: red;
-    position: relative;
-    transition: all 100ms
-        ease-in;
-}
-
-.theme-text-container {
-    width: max-content;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 1.5rem;
-    float: right;
-}
-
-.theme {
-    color: white;
-    margin: 0;
-    text-transform: uppercase;
-}
 /* End of Calc Hero Banner */
 
 /* Calc Display */
@@ -125,7 +47,7 @@ body {
 .calc-display {
     width: 100%;
     height: 126px;
-    background-color:hsl(224, 36%, 15%);
+    background-color:hsl(254, 27%, 20%);
     display: flex;
     justify-content: center;
     border-radius: 10px;
@@ -177,7 +99,7 @@ body {
 .calculator-body {
     width: 100%;
     height: 476px;
-    background-color: hsl(223, 31%, 20%);
+    background-color:hsl(254, 27%, 20%);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -199,9 +121,9 @@ body {
     cursor: pointer;
     width: 101px;
     background-color: white;
-    box-shadow: 0px 5px 1px hsl(28, 16%, 65%);
+    box-shadow: 0px 5px 1px hsl(28, 9%, 73%);
     font-size: 32px;
-    color: hsl(221, 14%, 31%)
+    color:hsl(254, 27%, 20%);
 }
 
 .calc-def {
@@ -215,8 +137,8 @@ body {
 .reset-rec {
     cursor: pointer;
     width: 231px;
-    background-color: hsl(225, 21%, 49%);
-    box-shadow: 0px 5px 1px hsl(224, 28%, 35%);
+    background-color:hsl(254, 27%, 30%);
+    box-shadow: 0px 5px 1px hsl(254, 27%, 15%);
     font-size: 20px;
     margin: 0;
     color: white;
