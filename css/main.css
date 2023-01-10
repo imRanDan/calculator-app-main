@@ -132,6 +132,27 @@ body {
     position: relative;
 }
 
+.output {
+    display: flex;
+    grid-column: 1 / -1;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1em;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.output .previous-operand {
+    color: lightgrey;
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: white;
+    font-size: 2.5rem;
+}
+
 .screen {
     max-width: 491px;
     height: 100%;
@@ -175,6 +196,7 @@ body {
 }
 
 .input-sq {
+    cursor: pointer;
     width: 101px;
     background-color: white;
     box-shadow: 0px 5px 1px hsl(28, 16%, 65%);
@@ -191,6 +213,7 @@ body {
 }
 
 .reset-rec {
+    cursor: pointer;
     width: 231px;
     background-color: hsl(225, 21%, 49%);
     box-shadow: 0px 5px 1px hsl(224, 28%, 35%);
@@ -201,6 +224,7 @@ body {
 }
 
 .result-rec {
+    cursor: pointer;
     width: 231px;
     background: hsl(6, 63%, 50%);
     box-shadow: 0px 5px 1px hsl(6, 70%, 34%);

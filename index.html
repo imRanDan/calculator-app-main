@@ -37,6 +37,10 @@
 
   <section class="calc-display">
     <input class="screen" aria-label="Screen" type="text" value="">
+    <div class="output">
+      <div data-previous-operand class="previous-operand"></div>
+      <div data-current-operand class="current-operand"></div>
+    </div>
     <div class="screen-guard"></div>
   </section>
 
@@ -57,11 +61,13 @@
       <button data-number class="calc-def input-sq">.</button>
       <button data-number class="calc-def number input-sq">0</button>
       <button data-operation class="calc-def input-sq">/</button>
-      <button data-operation class="calc-def input-sq">x</button>
+      <button data-operation class="calc-def input-sq">*</button>
       <button data-reset class="calc-def reset-rec">RESET</button>
-      <button data-result class="calc-def result-rec">=</button>
+      <button data-equals class="calc-def result-rec">=</button>
     </div>
   </div>
 </main>
+
+<script src="./js/scripts.js"></script>
 </body>
 </html>
